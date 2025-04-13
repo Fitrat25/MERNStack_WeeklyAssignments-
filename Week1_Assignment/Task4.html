@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Data Table & Form</title>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 30px;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+    }
+
+    form {
+      width: 300px;
+    }
+
+    input[type="text"], input[type="email"] {
+      width: 100%;
+      padding: 8px;
+      margin: 10px 0;
+      border: 1px solid #aaa;
+      border-radius: 4px;
+    }
+
+    input[type="submit"] {
+      padding: 10px 16px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #218838;
+    }
+  </style>
+</head>
+<body>
+
+  <p>Below is a sample data table followed by a simple form.</p>
+
+  <table>
+    <tr>
+      <th>Item</th>
+      <th>Quantity</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td>Notebook</td>
+      <td>3</td>
+      <td>$6</td>
+    </tr>
+    <tr>
+      <td>Pencil</td>
+      <td>10</td>
+      <td>$2</td>
+    </tr>
+  </table>
+
+  <form>
+    <input type="text" placeholder="Enter Name">
+    <input type="email" placeholder="Enter Email">
+    <input type="submit" value="Submit">
+  </form>
+
+</body>
+</html>
